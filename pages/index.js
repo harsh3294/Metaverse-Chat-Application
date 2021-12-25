@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="max-w-screen-2xl mx-auto">
+      <div className="max-w-screen-xl 2xl:max-w-screen-2xl mx-auto">
         <Header />
         <Messages />
       </div>

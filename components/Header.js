@@ -7,9 +7,9 @@ import Meta from "../asset/Meta.png";
 function Header() {
   const { user } = useMoralis();
   return (
-    <div className="text-pink-500">
-      <div className="grid grid-cols-5 lg:grid-cols-6 items-end lg:inline-grid">
-        <div className="relative h-28 w-48 mx-auto hidden lg:inline-grid cursor-pointer">
+    <div className="text-pink-500 sticky top-0 p-5 z-50 bg-black shadow-sm border-b-2 border-pink-700">
+      <div className="grid grid-cols-5 lg:grid-cols-6 items-center lg:inline-grid">
+        <div className="relative  h-28 w-48 mx-auto hidden lg:inline-grid cursor-pointer">
           <Image
             src={Meta}
             layout="fill"
